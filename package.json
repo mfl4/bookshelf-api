@@ -1,0 +1,40 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "A simple CRUD API built using the Hapi.js framework. It serves as a back-end solution for managing notes, allowing users to create, read, update, and delete books efficiently. The project emphasizes RESTful principles and is designed for easy integration with front -end applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js",
+    "start-dev": "nodemon ./src/server.js",
+    "lint": "eslint ./src",
+    "lint-fix": "eslint ./src --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfl4/bookshelf-api.git"
+  },
+  "keywords": [
+    "book",
+    "bookshelf",
+    "api"
+  ],
+  "author": "Mhd. Farhan Lubis (mfl4)",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/mfl4/bookshelf-api/issues"
+  },
+  "homepage": "https://github.com/mfl4/bookshelf-api#readme",
+  "devDependencies": {
+    "@eslint/js": "^9.15.0",
+    "eslint": "^9.15.0",
+    "eslint-config-dicodingacademy": "^0.9.4",
+    "globals": "^15.12.0",
+    "nodemon": "^3.1.7"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.3.12",
+    "dotenv": "^16.4.5",
+    "nanoid": "^3.3.7"
+  }
+}
