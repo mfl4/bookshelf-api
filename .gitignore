@@ -1,4 +1,11 @@
-.idea
+# IDEs
+.idea/
+.vscode/
+
+# Generated files
+.vscode-test/
+.vscode-remote/
+
 # Logs
 logs
 *.log
